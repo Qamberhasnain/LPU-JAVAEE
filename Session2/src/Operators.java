@@ -1,151 +1,89 @@
 /*
  	MODEL
- 		Primitive Data Type
- 		Reference Data Type -> to be explored yet :) 
+ 	
  	VIEW
- 		Console Based i.e. Textual Command Line
- 		GUI based
+ 	
  	CONTROLLER
- 		logic
- 			1. Operators
- 			2. Conditional Constructs if/else or switch case
- 			3. Loops i.e. iterations
+ 		Logical Operations
+ 			1. Operators for Computation
+ 			2. if/else and switch case for decision making
+ 			3. loops for iterations
+ 			
+ 			PS: For Controller, MODEL will be data provider
  */
 
 public class Operators {
 
 	public static void main(String[] args) {
 		
-		// Operators help to perform computation :)
+		// Operators
 		// 1. Arithmetic Operators
-		//    +, -, *, /, %
-		double amount = 1200.58;
-		double tax = 0.18;
+		// +, -, *, /, %
 		
+		double amount = 3565.55;
+		double tax = 0.18;
 		double total = amount + (tax*amount);
-		System.out.println("Total is: "+total);
+		System.out.println("Total to Pay: \u20b9"+total);
 		
 		int number = 10;
 		int buckets = 3;
-		int hashCode = number % buckets;
-		System.out.println("HashCode is: "+hashCode);
+		int hashCode = number % buckets; // you will always get just -> 0 1 or 2 
+		System.out.println("HashCode for number "+number+" with bucket size of "+buckets+" is: "+hashCode);
 		
 		// 2. Assignment Operators
-		// =, +=, -=. *=, /=, %=
-		int eWallet = 200; // = -> assignment operator copies the data
-		//eWallet = eWallet + 100;
-		eWallet += 100; // -> eWallet = eWallet + 100;
-		System.out.println("eWallet now is: "+eWallet);
+		// =  +=, -=, *=, /=, %=
+		int eWallet = 500; // assign operator to assign the value
+		int myWallet = eWallet; // Value Copy Operation | Copy form Variable to Variable :)
 		
-		eWallet %= 7;
+		//eWallet = eWallet + 100;
+		eWallet += 100; // short hand expression
 		System.out.println("eWallet is: "+eWallet);
 		
-		// 3. Increment and Decrement Operators -> increment or decrement the value by 1
+		eWallet %= 7; // eWallet = eWallet % 7; -> eWallet = 600 % 7;
+		System.out.println("eWallet now is: "+eWallet);
+		
+		// 3. Increment and Decrement operators
+		// ++ and --
+		// ++ increments by 1
+		// -- decrements by 1
 		int quantity = 1;
+		
 		quantity++; // postfix
 		++quantity; // prefix
+		++quantity;
 		
 		quantity--;
 		
-		System.out.println("Quantity is: "+quantity); // 2
+		System.out.println("Quantity is: "+quantity); // 3
 		
-		//int value = quantity++; // getting the previous value :)
-		int value = ++quantity; // getting the lets value :)
-		System.out.println("value: "+value+" and quantity: "+quantity);
+		System.out.println();
 		
-		// Conditional/Relational Operators
-		// >, <, >=, <=, ==, !=
+		//int value = quantity++; // copy the value first and update quantity later i.e. the last copy of data
+		int value = ++quantity; // update quantity and copy the data into value i.e. the latest data
+		System.out.println("value is: "+value);
+		System.out.println("quantity is: "+quantity);
 		
 		eWallet = 300;
+		
+		// 4. Conditional or Relational
+		// >, <, >=, <=, ==, !=
 		int cabFare = 300;
+		System.out.println("Can i book a Cab? "+(eWallet >= cabFare));
 		
-		System.out.println("Can i Book Cab: "+(eWallet >= cabFare));
+		int promoCode = 101;
+		int promoCodeByUser = 201;
 		
-		boolean gps = true;
-		System.out.println("Is gps not enabled: "+!gps);
+		System.out.println("Can i get a Dicsount? "+(promoCode == promoCodeByUser));
 		
-		int promoCode = 12001;
-		int promoCodeEnteredByUser = 12002;
+		// 5. Logical Operators
+		// &&, ||, !
+		System.out.println("Can i book can and get discount? "+ ( (eWallet >= cabFare) && (promoCode == promoCodeByUser) ) );
 		
-		System.out.println("Can i get a Discount: "+(promoCode == promoCodeEnteredByUser));
+		boolean isGPSEnabled = true;
+		System.out.println("Is GPS Enabled: "+isGPSEnabled);
+		System.out.println("Is GPS Not Enabled: "+!isGPSEnabled);
 		
-		// Logical Operators
-		// &&, !!, !
-		
-		System.out.println("Can i book cab and get discount: "+( (eWallet >= cabFare) && (promoCode == promoCodeEnteredByUser) ));
-		System.out.println("Can i book cab and get discount: "+( (eWallet >= cabFare) || (promoCode == promoCodeEnteredByUser) ));
-		
-		// Bitwise Operators
-		// &, |, ^
-		int num1 = 10;				// 1 0 1 0
-		int num2 = 8;   			// 1 0 0 0
-		
-		int result1 = num1 & num2;	// 1 0 0 0	-> 8
-		int result2 = num1 | num2;	// 1 0 1 0	-> 10
-		int result3 = num1 ^ num2;  // 0 0 1 0	-> 2
-		
-		System.out.println("result1: "+result1);
-		System.out.println("result2: "+result2);
-		System.out.println("result3: "+result3);
-		
-		
-		// Shift Operators :)
-		// >>, <<, >>>
-		
-		int x = 8;			// 0 0 0 0  1 0 0 0
-		int y = 3;			
-		int z = x >> y;		// >>3
-							// _ _ _ 0  0 0 0 1  => 0 0 0 0  0 0 0 1 => 1
-		
-		// divide 8 with 2 power 3 -> i.e. 8/8 -> 1
-		System.out.println("z is: "+z);
-		
-		x = 11;				// 0 0 0 0  1 0 1 1
-		y = 3;	
-		z = x >> y;			// _ _ _ 0  0 0 0 1 => 0 0 0 0  0 0 0 1
-							// 11/8 -> 1
-		System.out.println("z now is: "+z);  // 1
-		
-		/*
-		 	11
-		 	0 0 0 0  1 0 1 1
-		 	
-		 	1 1 1 1  0 1 0 0
-		 				 + 1
-		 	-11			   
-		 	1 1 1 1  0 1 0 1
-		 	>> 3
-		 	_ _ _ 1  1 1 1 0
-		 	1 1 1 1  1 1 1 0
-		 	
-		 	0 0 0 0  0 0 0 1
-		 				 + 1
-		 	0 0 0 0  0 0 1 0 -> -2			 
-		 */
-		
-		x = -13;
-		y = 3;
-		z = x >> y;
-		System.out.println("z now is: "+z);
-		
-		x = 8;
-		y = 3;
-		z = x << y;
-		// multiply 8 with 2 power 3 -> i.e. 8*8 -> 64
-		// 0 0 0 0  1 0 0 0 
-		// << 3
-		// 0 1 0 0  0 _ _ _
-		// 0 1 0 0  0 0 0 0 -> 64 :)
-		
-		
-		System.out.println("z with left shift is: "+z);
-		// Explore the left shift with negative numbers :)
-		
-		// Ternary Operator
-		eWallet -= 200;
-		String message = (eWallet >= cabFare) ? "Cab is Booked" : "Please recharge your wallet";
-		System.out.println(message);
-				
+
 	}
 
 }
