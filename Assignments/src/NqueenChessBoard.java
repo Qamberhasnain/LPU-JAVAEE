@@ -13,40 +13,58 @@ public class NqueenChessBoard {
 		char blackSquare = '\u25A1';	// 1
 		char whiteSquare = '\u25A0';	// 0
 		char queen = '\u2655';
+		char square = ' ';
 		
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Chess board before placing queens.\n");
+		
+		for(int i=0;i<8;i++) {
+			for(int j=0;j<8;j++) {
+				if(i%2==0) {
+					square = ( (j+1) % 2 == 0 )? blackSquare : whiteSquare;
+					System.out.print(square+" ");
+				}else {
+					square = (j % 2) == 0 ? blackSquare : whiteSquare;
+					System.out.print(square+" ");
+				}
+				
+			}
+			System.out.println();
+		}
 		
 		int count = 0;
 		
 		while(count < 4) {
-			
+			int queen_no = count +1; 
+			System.out.println("enter row "+ queen_no + ": ");
+			int row = sc.nextInt();
+			System.out.println("enter column "+queen_no+": ");
+			int col = sc.nextInt();
 			for(int i=0;i<8;i++) {
-				System.out.println("enter row "+ (count+1) + ": ");
-				int row = sc.nextInt();
-				System.out.println("enter column "+ (count+1) +": ");
-				int col = sc.nextInt();
-				
 				for(int j=0;j<8;j++) {
-					
 					if(i%2==0) {
-						if(row == i && col == j) 
-							System.out.print(queen+" ");
-						else {
-							char square = ( (j+1) % 2 == 0 )? blackSquare : whiteSquare;
-							System.out.print(square+" ");
-							}
+						if(i == row && j == col){
+							square = queen;
 						}
-					else {
-						if(row == i && col == j) 
-							System.out.print(queen+" ");
-						else {
-						char square = (j % 2) == 0 ? blackSquare : whiteSquare;
+						else{
+						square = ( (j+1) % 2 == 0 )? blackSquare : whiteSquare;
+						}
 						System.out.print(square+" ");
+					}else {
+						if(i == row && j == col){
+							square = queen;
 						}
+						else{
+						square = (j % 2) == 0 ? blackSquare : whiteSquare;
+						}
+						System.out.print(square+" ");
 					}
+					
 				}
 				System.out.println();
 			}
+			
 			count++;
 		}
 
