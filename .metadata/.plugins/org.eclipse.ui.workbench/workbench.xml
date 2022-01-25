@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="33" version="2.0">
+<workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="407" y="-24">
+<window height="1028" maximized="true" width="1003" x="-8" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -34,28 +34,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Arrays2D.java" partName="Arrays2D.java" path="C:/Users/Hp/workspace/LPU-JAVAEE/Session4/src/Arrays2D.java" title="Arrays2D.java" tooltip="Session4/src/Arrays2D.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Session4/src/Arrays2D.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="291" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraySyntaxes.java" partName="ArraySyntaxes.java" path="C:/Users/Hp/workspace/LPU-JAVAEE/Session4/src/ArraySyntaxes.java" title="ArraySyntaxes.java" tooltip="Session4/src/ArraySyntaxes.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Session4/src/ArraySyntaxes.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="211"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageArrayAssignment.java" partName="ImageArrayAssignment.java" path="C:/Users/Hp/workspace/LPU-JAVAEE/Session4/src/ImageArrayAssignment.java" title="ImageArrayAssignment.java" tooltip="Session4/src/ImageArrayAssignment.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Session4/src/ImageArrayAssignment.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="91"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Methods.java" partName="Methods.java" path="C:/Users/Hp/workspace/LPU-JAVAEE/Session4/src/Methods.java" title="Methods.java" tooltip="Session4/src/Methods.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Session4/src/Methods.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1491"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Encapsulation.java" partName="Encapsulation.java" path="C:/Users/Hp/workspace/LPU-JAVAEE/Session6/src/Encapsulation.java" title="Encapsulation.java" tooltip="Session6/src/Encapsulation.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Session6/src/Encapsulation.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="805" selectionTopPixel="589"/>
 </editor>
 </editors>
 <views>
@@ -365,178 +350,170 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session2/src/DataTypes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session3/src/BreakAndContinue.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignments/src/BreakAndContinueWithLabel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignments/src/UberCaseStudy.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session3/src/ConditionalConstructs.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session3/src/Loops.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session3/src/NestedLoops.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignments/src/NqueenChessBoard.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/C:/Users/Hp/workspace/LPU-JAVAEE/Session4/src/Arrays2D.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/Arrays2D.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/ArraySyntaxes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/ImageArrayAssignment.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignments/src/UberCaseStudy.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/Methods.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/ReferenceVsCopy.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/Strings.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/WhyArrays.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/ImageArrayAssignment.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/ArraySyntaxes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/Arrays2D.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/ArraySyntaxes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/ImageArrayAssignment.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session4/src/Methods.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignments/src/ImageRotate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignments/src/MethodAssign.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignments/src/BreakAndContinueWithLabel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignments/src/NqueenChessBoard.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session6/src/MutableStrings.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session6/src/OOPS.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session6/src/ThisKeyword.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session5/src/MethodsInMemoryWithReferences.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session5/src/StringBuiltInMethods.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session6/src/ThisKeyword.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Session6/src/Encapsulation.java"/>
 </editors>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1414" y="0"/>
-</item>
-<item historyLabel="ConditionalConstructs.java" index="4">
-<position info="not_deleted" x="2798" y="0"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1414" y="0"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="564" y="0"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="560" y="0"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="435" y="0"/>
-</item>
-<item historyLabel="ConditionalConstructs.java" index="4">
-<position info="not_deleted" x="2798" y="0"/>
-</item>
-<item historyLabel="DataTypes.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1414" y="0"/>
-</item>
-<item historyLabel="BreakAndContinue.java" index="1">
-<position info="not_deleted" x="707" y="101"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1414" y="0"/>
-</item>
-<item historyLabel="BreakAndContinueWithLabel.java" index="2">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1414" y="0"/>
-</item>
-<item historyLabel="ConditionalConstructs.java" index="4">
-<position info="not_deleted" x="2806" y="262"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1414" y="0"/>
-</item>
-<item historyLabel="UberCaseStudy.java" index="3">
+<item historyLabel="ImageRotate.java" index="3">
 <position/>
 </item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1414" y="0"/>
+<item historyLabel="ImageRotate.java" index="3">
+<position/>
 </item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="693" y="0"/>
+<item historyLabel="ImageRotate.java" index="3">
+<position/>
 </item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1342" y="0"/>
+<item historyLabel="ImageRotate.java" index="3">
+<position/>
 </item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="1073" y="0"/>
+<item historyLabel="Methods.java" index="2">
+<position info="not_deleted" x="904" y="196"/>
 </item>
-<item historyLabel="UberCaseStudy.java" index="3">
-<position info="not_deleted" x="797" y="0"/>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="117" y="0"/>
 </item>
-<item historyLabel="ConditionalConstructs.java" index="4">
-<position info="not_deleted" x="2806" y="262"/>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="510" y="0"/>
 </item>
-<item historyLabel="BreakAndContinue.java" index="1">
-<position info="not_deleted" x="707" y="101"/>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="2609" y="0"/>
 </item>
-<item historyLabel="DataTypes.java" index="0">
+<item historyLabel="Methods.java" index="2">
+<position info="not_deleted" x="251" y="292"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="2609" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="482" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="195" y="19"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="1223" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="1121" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="1199" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="615" y="0"/>
+</item>
+<item historyLabel="NqueenChessBoard.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Loops.java" index="5">
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="615" y="0"/>
+</item>
+<item historyLabel="ImageRotate.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="NestedLoops.java" index="6">
+<item historyLabel="BreakAndContinueWithLabel.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DataTypes.java" index="0">
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="615" y="0"/>
+</item>
+<item historyLabel="NqueenChessBoard.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="NestedLoops.java" index="6">
+<item historyLabel="ImageRotate.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="NqueenChessBoard.java" index="7">
-<position info="not_deleted" x="109" y="0"/>
-</item>
-<item historyLabel="NestedLoops.java" index="6">
-<position info="not_deleted" x="809" y="0"/>
-</item>
-<item historyLabel="NqueenChessBoard.java" index="7">
-<position info="not_deleted" x="109" y="0"/>
-</item>
-<item historyLabel="Arrays2D.java" index="8">
+<item historyLabel="BreakAndContinueWithLabel.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="NqueenChessBoard.java" index="7">
-<position info="not_deleted" x="109" y="0"/>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="Arrays2D.java" index="9">
-<position info="not_deleted" x="1701" y="0"/>
-</item>
-<item historyLabel="ArraySyntaxes.java" index="10">
-<position info="not_deleted" x="1442" y="0"/>
-</item>
-<item historyLabel="ImageArrayAssignment.java" index="11">
-<position info="not_deleted" x="1130" y="0"/>
-</item>
-<item historyLabel="Methods.java" index="12">
-<position info="not_deleted" x="3002" y="0"/>
-</item>
-<item historyLabel="ReferenceVsCopy.java" index="13">
-<position info="not_deleted" x="737" y="0"/>
-</item>
-<item historyLabel="Strings.java" index="14">
-<position info="not_deleted" x="1398" y="0"/>
-</item>
-<item historyLabel="WhyArrays.java" index="15">
-<position info="not_deleted" x="1949" y="0"/>
-</item>
-<item historyLabel="Strings.java" index="14">
-<position info="not_deleted" x="1398" y="0"/>
-</item>
-<item historyLabel="ReferenceVsCopy.java" index="13">
-<position info="not_deleted" x="737" y="0"/>
-</item>
-<item historyLabel="Methods.java" index="12">
-<position info="not_deleted" x="3002" y="0"/>
-</item>
-<item historyLabel="ImageArrayAssignment.java" index="16">
+<item historyLabel="UberCaseStudy.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ArraySyntaxes.java" index="17">
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="1633" y="0"/>
+</item>
+<item historyLabel="Methods.java" index="2">
+<position info="not_deleted" x="2878" y="111"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="1633" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="410" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="473" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="449" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="473" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="2609" y="0"/>
+</item>
+<item historyLabel="MethodAssign.java" index="4">
+<position info="not_deleted" x="592" y="0"/>
+</item>
+<item historyLabel="NqueenChessBoard.java" index="6">
+<position info="not_deleted" x="916" y="0"/>
+</item>
+<item historyLabel="MutableStrings.java" index="7">
+<position info="not_deleted" x="865" y="0"/>
+</item>
+<item historyLabel="OOPS.java" index="8">
+<position info="not_deleted" x="4498" y="0"/>
+</item>
+<item historyLabel="ThisKeyword.java" index="9">
+<position info="not_deleted" x="1615" y="0"/>
+</item>
+<item historyLabel="MethodsInMemoryWithReferences.java" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Arrays2D.java" index="18">
+<item historyLabel="StringBuiltInMethods.java" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Arrays2D.java" index="18">
+<item historyLabel="StringBuiltInMethods.java" index="11">
+<position/>
+</item>
+<item historyLabel="StringBuiltInMethods.java" index="11">
+<position info="not_deleted" x="1191" y="19"/>
+</item>
+<item historyLabel="StringBuiltInMethods.java" index="11">
+<position info="not_deleted" x="1150" y="6"/>
+</item>
+<item historyLabel="ThisKeyword.java" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ArraySyntaxes.java" index="19">
+<item historyLabel="Encapsulation.java" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ImageArrayAssignment.java" index="20">
+<item historyLabel="Encapsulation.java" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Methods.java" index="21">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Encapsulation.java" index="13">
+<position/>
+</item>
+<item active="true" historyLabel="Encapsulation.java" index="13">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -556,50 +533,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Methods.java" tooltip="Session4/src/Methods.java">
-<persistable path="/Session4/src/Methods.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Encapsulation.java" tooltip="Session6/src/Encapsulation.java">
+<persistable path="/Session6/src/Encapsulation.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageArrayAssignment.java" tooltip="Session4/src/ImageArrayAssignment.java">
-<persistable path="/Session4/src/ImageArrayAssignment.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThisKeyword.java" tooltip="Session6/src/ThisKeyword.java">
+<persistable path="/Session6/src/ThisKeyword.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraySyntaxes.java" tooltip="Session4/src/ArraySyntaxes.java">
-<persistable path="/Session4/src/ArraySyntaxes.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringBuiltInMethods.java" tooltip="Session5/src/StringBuiltInMethods.java">
+<persistable path="/Session5/src/StringBuiltInMethods.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Arrays2D.java" tooltip="Session4/src/Arrays2D.java">
-<persistable path="/Session4/src/Arrays2D.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MethodsInMemoryWithReferences.java" tooltip="Session5/src/MethodsInMemoryWithReferences.java">
+<persistable path="/Session5/src/MethodsInMemoryWithReferences.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WhyArrays.java" tooltip="Session4/src/WhyArrays.java">
-<persistable path="/Session4/src/WhyArrays.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OOPS.java" tooltip="Session6/src/OOPS.java">
+<persistable path="/Session6/src/OOPS.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Strings.java" tooltip="Session4/src/Strings.java">
-<persistable path="/Session4/src/Strings.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReferenceVsCopy.java" tooltip="Session4/src/ReferenceVsCopy.java">
-<persistable path="/Session4/src/ReferenceVsCopy.java"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Arrays2D.java" tooltip="C:\Users\Hp\workspace\LPU-JAVAEE\Session4\src\Arrays2D.java">
-<persistable uri="file:/C:/Users/Hp/workspace/LPU-JAVAEE/Session4/src/Arrays2D.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MutableStrings.java" tooltip="Session6/src/MutableStrings.java">
+<persistable path="/Session6/src/MutableStrings.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NqueenChessBoard.java" tooltip="Assignments/src/NqueenChessBoard.java">
 <persistable path="/Assignments/src/NqueenChessBoard.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UberCaseStudy.java" tooltip="Assignments/src/UberCaseStudy.java">
+<persistable path="/Assignments/src/UberCaseStudy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BreakAndContinueWithLabel.java" tooltip="Assignments/src/BreakAndContinueWithLabel.java">
+<persistable path="/Assignments/src/BreakAndContinueWithLabel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageRotate.java" tooltip="Assignments/src/ImageRotate.java">
+<persistable path="/Assignments/src/ImageRotate.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MethodAssign.java" tooltip="Assignments/src/MethodAssign.java">
+<persistable path="/Assignments/src/MethodAssign.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageArrayAssignment.java" tooltip="Session4/src/ImageArrayAssignment.java">
+<persistable path="/Session4/src/ImageArrayAssignment.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Methods.java" tooltip="Session4/src/Methods.java">
+<persistable path="/Session4/src/Methods.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NestedLoops.java" tooltip="Session3/src/NestedLoops.java">
 <persistable path="/Session3/src/NestedLoops.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loops.java" tooltip="Session3/src/Loops.java">
-<persistable path="/Session3/src/Loops.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BreakAndContinue.java" tooltip="Session3/src/BreakAndContinue.java">
-<persistable path="/Session3/src/BreakAndContinue.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataTypes.java" tooltip="Session2/src/DataTypes.java">
-<persistable path="/Session2/src/DataTypes.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConditionalConstructs.java" tooltip="Session3/src/ConditionalConstructs.java">
-<persistable path="/Session3/src/ConditionalConstructs.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UberCaseStudy.java" tooltip="Assignments/src/UberCaseStudy.java">
-<persistable path="/Assignments/src/UberCaseStudy.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraySyntaxes.java" tooltip="Session4/src/ArraySyntaxes.java">
+<persistable path="/Session4/src/ArraySyntaxes.java"/>
 </file>
 </mruList>
 </workbench>
