@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 		
 		// Assignment: 1. Sort the same arrays using the algos: 
 		//					1.1 Bubble Sort
@@ -40,6 +42,7 @@ public class MethodAssign {
 		int[] productPrices = {1200, 4500, 3200, 4300, 1500};
 		int[] covidCases = {512433, 734667, 346762, 989823, 877873, 97632, 142331};
 		int[] scores = {70, 88, 12, 34, 56, 80, 90, 95, 34, 35, 16};
+
 		
 		MethodAssign ob = new MethodAssign();
 		System.out.println("*****Arrays sorted by Bubble Sort Algorithm****");
