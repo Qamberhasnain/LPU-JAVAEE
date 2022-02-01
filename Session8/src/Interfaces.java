@@ -35,12 +35,11 @@ interface GPay{
 	
 	// we can define the methods in interfaces, by making them default :)
 	
-	/*>>>default keyword is not working in my eclipse!
 	 
 	   default void payFromGPay(int amount) {
 		System.out.println("[GPay]: Payment Done for amount: "+amount);
 		onSuccess("Payment Success");
-	}*/
+	}
 	
 	void onSuccess(String message); // -> public abstract
 	void onFailure(String message); // -> public abstract

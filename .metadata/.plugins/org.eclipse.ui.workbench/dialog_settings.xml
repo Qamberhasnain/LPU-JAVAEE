@@ -8,12 +8,16 @@
 		<item value="740" key="dialogHeight"/>
 		<item value="1440" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.egit.ui.RepositoriesView"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
+			<item value="git"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
