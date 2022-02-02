@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="632" key="DIALOG_X_ORIGIN"/>
-		<item value="9" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="632"/>
+		<item key="DIALOG_Y_ORIGIN" value="9"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="740" key="dialogHeight"/>
-		<item value="1440" key="dialogWidth"/>
+		<item key="dialogHeight" value="740"/>
+		<item key="dialogWidth" value="1440"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="600"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="675"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="textEntries">
+			<item value="1"/>
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.ui.edit.text.toggleWordWrap"/>
 			<item value="org.eclipse.egit.ui.RepositoriesView"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
+			<item value="wrap"/>
 			<item value="git"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
 	</section>
 	<section name="InstallationDialogSettings">
-		<item value="934" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="982" key="DIALOG_HEIGHT"/>
-		<item value="-144" key="DIALOG_X_ORIGIN"/>
-		<item value="-269" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="934"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="982"/>
+		<item key="DIALOG_X_ORIGIN" value="-144"/>
+		<item key="DIALOG_Y_ORIGIN" value="-269"/>
 	</section>
 	<section name="ImportExportAction">
 	</section>
