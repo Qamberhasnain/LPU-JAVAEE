@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="true" key="CommitDialog.showUntracked"/>
+	<item key="CommitDialog.showUntracked" value="true"/>
 	<list key="CommitDialog.authorValues">
 		<item value="Qamberhasnain &lt;qamber.qh786@gmail.com&gt;"/>
 	</list>
@@ -8,12 +8,27 @@
 		<item value="Qamberhasnain &lt;qamber.qh786@gmail.com&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
-		<item value="790" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="678" key="DIALOG_HEIGHT"/>
-		<item value="574" key="DIALOG_X_ORIGIN"/>
-		<item value="67" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="790"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="678"/>
+		<item key="DIALOG_X_ORIGIN" value="574"/>
+		<item key="DIALOG_Y_ORIGIN" value="67"/>
 	</section>
 	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Hp\workspace\LPU-JAVAEE\.git">
+			<item value="false"/>
+			<item value="Qamberhasnain &lt;qamber.qh786@gmail.com&gt;"/>
+			<item value="Session 12"/>
+			<item value="Qamberhasnain &lt;qamber.qh786@gmail.com&gt;"/>
+			<item value="81a713774861e9cd4284017122637fdd7be70168"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="true"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
 	</section>
 </section>

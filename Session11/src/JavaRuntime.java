@@ -1,4 +1,3 @@
-
 class Customer{
 	int cid;
 	String name;
