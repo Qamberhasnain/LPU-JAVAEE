@@ -26,7 +26,7 @@
 		<item key="ListSashWeight" value="800"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.WizardSettings">
-		<item key="DIALOG_WIDTH" value="765"/>
+		<item key="DIALOG_WIDTH" value="942"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		<item key="DIALOG_HEIGHT" value="846"/>
 		<item key="DIALOG_X_ORIGIN" value="678"/>
